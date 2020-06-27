@@ -18,17 +18,9 @@ module "simple-security-group" {
   source = "./../../../terraform-aws-security-group"
   #source = "john-morsley/security-group/aws"
 
-<<<<<<< Updated upstream:examples/simple/main.tf
-  name        = local.name
-  description = "To allow web traffic."
-
-  vpc_id = module.simple-vpc.id
-  
-=======
   name        = local.security_group_name
   description = var.security_group_description
 
   vpc_id = module.simple-vpc.id
 
->>>>>>> Stashed changes:examples/egress/security_group.tf
 }

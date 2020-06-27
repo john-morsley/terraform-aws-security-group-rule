@@ -19,12 +19,6 @@ variable "type" {
   type = string
 }
 
-<<<<<<< Updated upstream
-variable "tags" {
-  description = "Additional tags for all resources"
-  type        = map(string)
-  default     = {}
-=======
 variable "from_port" {
   type    = number
   default = 0
@@ -42,5 +36,5 @@ variable "protocol" {
 
 variable "cidrs" {
   type = list(string)
->>>>>>> Stashed changes
+
 }

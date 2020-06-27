@@ -17,17 +17,6 @@
 #               | | \ \ |_| | |  __/
 #               |_|  \_\__,_|_|\___|
 
-<<<<<<< Updated upstream
-resource "aws_security_group" "this" {
-
-  name        = local.name
-  description = var.description
-
-  vpc_id = var.vpc_id
-
-  tags = local.merged_tags
-
-=======
 resource "aws_security_group_rule" "this" {
 
   security_group_id = var.security_group_id
@@ -39,6 +28,5 @@ resource "aws_security_group_rule" "this" {
   to_port     = var.to_port
   protocol    = var.protocol
   cidr_blocks = var.cidrs
-
->>>>>>> Stashed changes
+  
 }

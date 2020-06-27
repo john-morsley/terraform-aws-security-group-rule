@@ -1,2 +1,0 @@
-# Simple Security Group
-

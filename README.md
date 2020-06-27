@@ -1,4 +1,4 @@
-# Terraform a Security Group in AWS
+# Terraform a Security Group Rule in AWS
 
 ## Examples
 
@@ -9,7 +9,7 @@ For examples how to use, please refer to the examples folder.
 ```
 module "allow-al" {
 
-  source = "john-morsley/aws-security-group"
+  source = "john-morsley/aws-security-group-rule"
 
   name = "example"
 

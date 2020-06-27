@@ -20,11 +20,6 @@ variable "public_subnet_cidrs" {
 }
 
 # Security Group
-<<<<<<< Updated upstream:examples/simple/variables.tf
-
-variable "name" {
-  type = string
-=======
 
 variable "security_group_name" {
   type = string
@@ -58,5 +53,4 @@ variable "protocol" {
 
 variable "cidrs" {
   type = list(string)
->>>>>>> Stashed changes:examples/ingress/variables.tf
 }
