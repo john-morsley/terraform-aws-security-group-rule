@@ -18,8 +18,8 @@ security_group_description = "To allow all web traffic."
 
 # Security Group Rule
 
-security_group_rule_description = "To allow all web traffic out."
-type                            = "egress"
+security_group_rule_description = "To allow all web traffic in."
+type                            = "ingress"
 from_port                       = 0
 to_port                         = 65535
 protocol                        = "tcp"

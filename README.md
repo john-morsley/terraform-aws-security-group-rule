@@ -7,7 +7,7 @@ For examples how to use, please refer to the examples folder.
 ## Usage
 
 ```
-module "allow-al" {
+module "security-group-rule" {
 
   source = "john-morsley/aws-security-group-rule"
 

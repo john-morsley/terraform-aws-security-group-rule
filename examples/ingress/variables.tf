@@ -19,6 +19,11 @@ variable "public_subnet_cidrs" {
   type = list(string)
 }
 
+variable "all_cidr_block" {
+  type    = string
+  default = "0.0.0.0/0" # All possible IP address range 
+}
+
 # Security Group
 
 variable "security_group_name" {
