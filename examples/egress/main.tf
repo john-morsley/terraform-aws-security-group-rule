@@ -19,7 +19,7 @@
 
 module "simple-security-group-rule" {
 
-  source = "./../../../terraform-aws-security-group-rule"
+  source = "./../../../terraform-aws-security-group-rule-module"
   #source = "john-morsley/security-group-rule/aws"
 
   description = var.security_group_rule_description
